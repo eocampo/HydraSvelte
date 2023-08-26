@@ -11,7 +11,7 @@
     <h1>{message}</h1>
   </div>
   <div class="card-body">
-    <p>Aquí un ejemplo {count}</p>
+    <p>Aquí un ejemplo <span>{count}</span></p>
     <button class="btn btn-primary text-white" on:click={increment}
       >Click me!</button
     >
